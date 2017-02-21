@@ -32,6 +32,7 @@ REM ***** CREATE TABLE IMAGES
 CREATE TABLE IMAGES (
 	numImage INTEGER,
 	numPays INTEGER,
+	pathImage VARCHAR(20),
 	nombrePoints INTEGER DEFAULT 1
 )/
 REM ************************* FIN TABLES *************************************
