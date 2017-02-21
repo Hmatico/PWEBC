@@ -12,6 +12,8 @@ DROP TABLE IMAGES CASCADE CONSTRAINTS PURGE
 /
 DROP TABLE PAYS CASCADE CONSTRAINTS PURGE
 /
+DROP TABLE THEMES CASCADE CONSTRAINTS PURGE
+/
 REM ************************* FIN DROP ***************************************
 
 REM ************************* TABLES *****************************************
@@ -28,11 +30,19 @@ CREATE TABLE PAYS (
 	nomPays VARCHAR(15) NOT NULL
 )/
 
+REM ***** CREATE TABLE THEMES
+CREATE TABLE THEMES (
+	numTheme INTEGER,
+	nomTheme VARCHAR(15) NOT NULL
+)/
+
 REM ***** CREATE TABLE IMAGES
 CREATE TABLE IMAGES (
 	numImage INTEGER,
 	numPays INTEGER,
-	pathImage VARCHAR(20),
+	numTheme INTEGER,
+	pathImage VARCHAR(20) NOT NULL,
+	description VARCHAR(125) NOT NULL,
 	nombrePoints INTEGER DEFAULT 1
 )/
 REM ************************* FIN TABLES *************************************
@@ -44,6 +54,8 @@ ALTER TABLE PAYS ADD CONSTRAINT PK_PAYS PRIMARY KEY (nomPays)
 /
 ALTER TABLE IMAGES ADD CONSTRAINT FK_IMAGES_PAYS FOREIGN KEY (numPays) REFERENCES PAYS(numPays)
 /
-ALTER TABLE IMAGES ADD CONSTRAINT PK_IMAGES PRIMARYEY (numImage,numPays)
+ALTER TABLE IMAGES ADD CONSTRAINT FK_IMAGES_THEME FOREIGN KEY (numTheme) REFERENCES THEMES(numTheme)
+/
+ALTER TABLE IMAGES ADD CONSTRAINT PK_IMAGES PRIMARYEY (numImage,numPays,numTheme)
 /
 REM ************************* FIN CONSTRAINT *********************************
