@@ -42,6 +42,7 @@ CREATE TABLE IMAGES (
 	numPays INTEGER,
 	numTheme INTEGER,
 	pathImage VARCHAR(20) NOT NULL,
+	titre VARCHAR(20) NOT NULL,
 	description VARCHAR(125) NOT NULL,
 	nombrePoints INTEGER DEFAULT 1
 )/
