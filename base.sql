@@ -105,15 +105,25 @@ INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 2, "fromages/fr/brie.jpg", "Br
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 3, "paysages/fr/etretat.jpg", "Falaises d'Etretat", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 4, "boissons/fr/champagne.jpg", "Champagne", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 5, "artistes/fr/piaf.jpg", "Edith Piaf", "...description...", 1);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/eiffel.png", "Tour Eiffel", "...description...", 1);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/mtMichel.png", "Mont Saint Michel", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/eiffel.jpg", "Tour Eiffel", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/mtMichel.jpg", "Mont Saint Michel", "...description...", 1);
 
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 1, "plats/all/choucroute.jpg", "Sauerkraut", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 2, "fromages/all/allgauer.jpg", "Allgäuer Bergkäse", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 3, "paysages/all/chateau.jpg", "Chateau de Neuschwanstein ", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 4, "boissons/all/jager.jpg", "Jägermeister", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 5, "artistes/all/tappert.jpg", "Horst Tappert", "...description...", 3);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 6, "monuments/all/mur.png", "Mur de Berlin", "...description...", 1);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 6, "monuments/all/.png", "", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 6, "monuments/all/mur.jpg", "Mur de Berlin", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 2, 6, "monuments/all/.jpg", "", "...description...", 1);
+
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 1, "plats/es/tapas.jpg", "Tapas", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 2, "fromages/es/queso.jpg", "Queso de Tronchón ", "...description...", 3);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 3, "paysages/es/ronda.jpg", "Village de Ronda", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 4, "boissons/es/licor43.jpg", "Licor 43", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 5, "artistes/es/dali.jpg", "Salvador Dali", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 6, "monuments/es/mosquee.jpg", "Mosquée-Cathédrale", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 6, "monuments/es/sagrada.jpg", "Sagrada Família", "...description...", 1);
+
+
 
 REM ************************* FIN DATAS **************************************
