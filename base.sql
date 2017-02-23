@@ -136,7 +136,8 @@ INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 1, "plats/ru/stroganoff.jpg", 
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 2, "fromages/ru/tvorog.jpg", "Tvorog", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 3, "paysages/ru/baikal.jpg", "Lac Baikal gelé", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 4, "boissons/ru/kvass.jpg", "Kvass", "...description...", 1);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 5, "artistes/ru/kandinsky.jpg", "Vassily Kandinsky", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 5, "artistes/ru/kandinsky.jpg", "Vassily Kandinsky", "...description...", 3);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 5, "artistes/ru/coeurs.jpg", "Coeurs de l'armée Rouge", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 6, "monuments/ru/kremlin.jpg", "Place Rouge", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 6, "monuments/ru/triumph.jpg", "Arc de Triumph", "...description...", 3);
 
