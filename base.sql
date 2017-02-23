@@ -132,4 +132,12 @@ INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 5, "artistes/be/brel.jpg", "Ja
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 6, "monuments/be/beffroi.jpg", "Beffroi de Bruges", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 6, "monuments/be/manneken.jpg", "Manneken Pis", "...description...", 1);
 
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 1, "plats/ru/stroganoff.jpg", "Boeuf Stroganoff", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 2, "fromages/ru/tvorog.jpg", "Tvorog", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 3, "paysages/ru/baikal.jpg", "Lac Baikal gelé", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 4, "boissons/ru/kvass.jpg", "Kvass", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 5, "artistes/ru/kandinsky.jpg", "Vassily Kandinsky", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 6, "monuments/ru/kremlin.jpg", "Place Rouge", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 5, 6, "monuments/ru/triumph.jpg", "Arc de Triumph", "...description...", 3);
+
 REM ************************* FIN DATAS **************************************
