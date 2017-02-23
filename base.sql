@@ -104,7 +104,7 @@ INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 1, "plats/fr/gratin.jpg", "Gra
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 2, "fromages/fr/brie.jpg", "Brie de Meaux", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 3, "paysages/fr/etretat.jpg", "Falaises d'Etretat", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 4, "boissons/fr/champagne.jpg", "Champagne", "...description...", 1);
-INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 5, "artistes/fr/piaf.jpg", "Edith Piaf", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 5, "artistes/fr/piaf.jpg", "Edith Piaf", "...description...", 2);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/eiffel.jpg", "Tour Eiffel", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 1, 6, "monuments/fr/mtMichel.jpg", "Mont Saint Michel", "...description...", 1);
 
@@ -124,6 +124,12 @@ INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 5, "artistes/es/dali.jpg", "Sa
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 6, "monuments/es/mosquee.jpg", "Mosquée-Cathédrale", "...description...", 1);
 INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 3, 6, "monuments/es/sagrada.jpg", "Sagrada Família", "...description...", 1);
 
-
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 1, "plats/be/fricadelles.jpg", "Fricadelles", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 2, "fromages/be/herve.jpg", "Le Herve", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 3, "paysages/be/canaux.jpg", "Canaux de Bruges", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 4, "boissons/be/kriek.jpg", "Bière Kriek", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 5, "artistes/be/brel.jpg", "Jacques Brel", "...description...", 1);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 6, "monuments/be/beffroi.jpg", "Beffroi de Bruges", "...description...", 2);
+INSERT INTO IMAGES VALUES (IMAGES_SEQ.NEXTVAL, 4, 6, "monuments/be/manneken.jpg", "Manneken Pis", "...description...", 1);
 
 REM ************************* FIN DATAS **************************************
