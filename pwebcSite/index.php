@@ -8,8 +8,8 @@ if ((count($_GET)!=0) && !(isset($_GET['controle']) && isset ($_GET['action'])))
 else {
 
 	if ((! isset($_SESSION['profil'])) || count($_GET)==0)	{
-		$controle = "player";   //cas d'une personne non authentifiée
-		$action=	"home";		//ou d'un appel à index.php sans paramètre
+		$controle = "gestionSession";   //cas d'une personne non authentifiée
+		$action=	"ident";		//ou d'un appel à index.php sans paramètre
 	}
 	else {
 		if (isset($_GET['controle']) && isset ($_GET['action'])) {
